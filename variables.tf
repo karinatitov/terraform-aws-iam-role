@@ -49,6 +49,12 @@ variable "role_description" {
   description = "The description of the IAM role that is visible in the IAM role manager"
 }
 
+variable "policy_name" {
+  type        = string
+  default     = ""
+  description = "The name of the IAM policy that is visible in the IAM policy manager"
+}
+
 variable "policy_description" {
   type        = string
   default     = ""
